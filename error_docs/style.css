@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+body {
+font-family: 'ＭＳＰゴシック','ヒラギノ角ゴ Pro W3',Osaka,sans-serif;
+text-align:center;
+background-color:#FFFFFF;
+font-size:12px;
+width: auto;
+}
+
+/* h1～h6 の余計な空白削除 */
+body, h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+/* IMG のボーダーを非表示 */
+img {
+	border: none;
+	vertical-align:bottom;
+}
+
+/* TABLE のボーダーを非表示 */
+table {
+	border: none;
+}
+
+.mt5 {
+	margin-top:5px !important;
+}
+
+.mt20 {
+	margin-top:20px !important;
+}
+
+.mt30 {
+	margin-top:30px !important;
+}
+
+.mt40 {
+	margin-top:40px !important;
+}
+
+m_auto20 {
+margin:20px auto 0px auto;
+}
